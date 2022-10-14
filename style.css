@@ -1,0 +1,1021 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-size: 16px;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+.row:after,
+.header:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    margin: 10px 40px;
+    padding-top: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: black;
+}
+ul li a::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    background-color: #F1A501;
+    transition: 0.5s ease;
+    margin: auto;
+}
+ul a:hover::after{
+    display: block;
+    transform: scaleX(2);
+   
+}
+nav ul a.btn{
+    color: #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 5px;  
+}
+nav ul a.btn:hover{
+    transition: 00.5s ease-in-out;
+    background-color: #000;
+    color: white;
+}
+
+
+  /*========= Start Codind Text ===========*/
+
+.row-1{
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+
+.text{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+.text h4{
+    color: #DF6951;
+    margin-bottom: 10px;
+
+}
+.text h1{
+    color:  #181E4B;
+    font-size:80px;
+    font-family: 'volkhow';
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.text p{
+    font-weight: 500;
+    color: #5E6282;
+    margin-bottom: 20px;
+}
+.text .find-more{
+    padding: 15px 30px;
+    background-color: #F1A501;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.text .play-demo{
+    text-decoration: none;
+    color: #5E6282;
+}
+.text .play-demo i{
+    background-color: #DF6951;
+    border-radius: 50%;
+    color: white;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.image{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+}
+.image img{
+    max-width: 100%;
+}
+
+ /*========= Start Codind Card ===========*/
+
+.title{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 100px;
+    color: #5E6282;
+    font-weight: 600;
+}
+.title h2{
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'volkhow';
+    text-align: center;
+}
+.row-2{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0 20px 10px;
+}
+.card{
+    float: left;
+    width: calc(20% - 25px);
+    border-radius: 25px;
+    background: white;
+    margin: 30px 40px;
+    position: relative;
+}
+.card-header{
+    text-align: center;
+    padding: 30px 10px;
+    text-decoration: underline;
+    color: #000;
+}
+.card-body{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #5e6282;
+    font-weight: 500;
+}
+.red-hover{
+    height: 90px;
+    width: 80px;
+    background-color: brown;
+    position: absolute;
+    z-index: -1;
+    top: 110px;
+    left: 80px;
+    border-radius: 40px 0px 15px 0px;
+    transition: all 0.5s ease;
+
+}
+.card:hover .red-hover{
+    top: 200px  ;
+    left: -30px;
+    right: auto;
+}
+
+ /*========= End Codind Card ===========*/
+
+
+ /*========= Start Codind Card-2 ===========*/
+.heading{
+    margin-top: 150px;
+}
+.heading h5{
+    text-align: center;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+}
+.heading h3{
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'volkhow';
+    text-align: center;
+}
+.row-3{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+.card-2{
+    float: left;
+    width: calc(33.5% - 42px);
+    background-color: rgba(243, 243, 241, 0.603);
+    border-radius: 30px;
+    margin: 0 20px
+}
+.card-2 img{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%; 
+    height: 300px;
+}
+.card-2 a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card-2 .card-2body a.hd:hover{
+    color: #F1A501;
+}
+.card-2  span{
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-pic{
+    padding: 10px;
+    color: #5E6282;
+}
+.card-pic i{
+    color: black;
+}
+
+  /*========= End Codind Card-2 ===========*/
+
+
+  /*========= Start Codind Book ===========*/
+
+.row-4{
+    margin-top: 150px;
+    overflow: hidden;
+}  
+.main-icon{
+    float: left;
+    width: 40%;
+}
+.easy-fast h6{
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+}
+.easy-fast h2{
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'volkhow'; 
+}
+.icon-head{
+    overflow: hidden;
+    margin: 30px 0 0 0;
+}
+.icon-head i{
+    float: left;
+    color: #FFFEFE;
+    font-size: 15px;
+    background-color: #F1A501;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.icon-head .fa-swimmer{
+    background-color: #DF6951;
+}
+.icon-head .fa-car{
+    background-color: #006380;
+}
+.pg{
+    font-size: 15px;
+    margin-left: 100px;
+}
+.pg h5{
+    font-size: 15px;
+}
+.main-card{
+    float: right;
+    padding: 50px;
+}
+
+.main-trip{
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(243, 243, 241, 0.700);
+}
+.main-trip img{
+    border-radius: 20px;
+}
+.trip-hd h3{
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #14183E;
+}
+.trip-hd h4{
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.trip-icon{
+    margin-bottom: 20px;
+}
+.trip-icon a i{
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: rgba(240, 240, 240);
+    color: #5E6282;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.bg img{
+    border-radius: 0;
+}
+.bg span{
+    color: #5E6282;
+    font-weight: 500;
+}
+.heart {
+    float: right;
+    position: relative;
+}
+.heart a i{
+    font-size: 20px;
+    color: #5E6282;
+}
+.hov-trip{
+    right: -10px;
+    bottom: 55px;
+    display: none;
+    height: 80px;
+    width: 160px;
+    padding: 10px;
+    background: rgba(247, 247, 246, 0.7);
+    border-radius: 10px;
+    position: absolute;
+
+}
+.heart:hover .hov-trip{
+    display: block;
+}
+.hov-trip img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.hov-trip p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E6282;
+}
+.hov-trip h5{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}.hov-trip span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #5E6282;
+}
+.hov-trip .heading-trip{
+    float: right;
+}
+.heading-trip p{
+    margin-bottom: 5px;
+}
+.heading-trip h5{
+    margin-bottom: 10px;
+}
+.progress{
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 60%;
+
+}
+.progress-bar{
+    height: 5px;
+    width: 40px;
+    background-color: #6237FF;
+    border-radius: 20px;
+}
+
+ /*========= End Codind Book ===========*/
+
+
+ /*========= Start Codind Test ===========*/
+.row-5{
+    margin-top: 150px;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.test{
+    float: left;
+    width: 450px;
+}
+.test h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #5E6282;
+}
+.test h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'volkhow';
+    color: #14183E;
+}
+.testi-slide{
+    width: 450px;
+    float: right;
+    margin-right: 80px;
+    background-color: #fffefe;
+    box-shadow: 0px 5px 5px 0px #0000003f;
+    border-radius: 10px;
+
+}
+.slide-part{
+    width: 400px;
+    padding: 20px;
+}
+.slide-part img{
+    width: 17%;
+    margin-left: -56px;
+    margin-top: -50px;
+}
+.slide-part .p{
+    color: #5e6282;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.slide-part h5{
+    color: #5e6282;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.slide-part .p-2{
+    color: #5e6282;
+    font-weight: 500;
+}
+
+ /*========= End Codind Test ===========*/
+
+.main-logo{
+    float: left;
+    width: 100%;
+    margin-top: 150px;
+    overflow: hidden;
+}
+.logo-2 img{
+    padding: 60px;
+}
+
+ /*========= Start Codind Footer ===========*/
+
+ .footer{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+}
+.high{
+    width: 25%;
+}
+.low{
+    width: 15%;
+    
+}
+.medium{
+    width: 20%;
+    
+}
+.footer .contain h1{
+    color: #212832;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.footer .contain p{
+    color: #5E6282;
+    font-weight: 500;
+}
+.contain{
+    float: left;
+}
+.contain h5{
+    color: #080809;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.contain li{
+    list-style: none;
+    padding-bottom: 7px;
+}
+.contain li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #5E6282;
+}
+.contain li a:hover{
+    color: #F1A501;
+}
+.contain h4{
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.contain a i{
+    padding: 15px 15px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #FFFEFE;
+    color: #212832;
+    transition: all 0.25s;
+    box-shadow: 0px 1px 10px 0px #0000003f;
+}
+#facebook{
+    padding: 15px 18px;
+}
+#facebook:hover{
+    background-color: #4267B2;
+    color: #FFFEFE;
+}
+#instagram:hover{
+    background: linear-gradient(to top,#F1A501, #A1B0FC, #D42DA3,#DF6951);
+    color: #FFFEFE;
+}
+#twitter:hover{
+    background-color: #1da1f2;
+    color: #FFFEFE;
+}
+.contain a img{
+    margin-top: 10px;
+}
+.all-rights{
+    text-align: center;
+    color: #5E6282;     
+    padding-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*========= End Codind Footer ===========*/
+
+@media (min-width: 992px) and (max-width: 1139px){
+    .container{
+        max-width: 940px;
+        margin: auto;
+    }
+    nav ul li a{
+        margin: 5px 30px;
+        padding-top: 45px;
+    }
+    .text h1{
+        font-size: 60px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .row-2{
+        padding: 20px 10px 20px 10px;
+    }
+    .card{
+        width: calc(25% - 35px);
+        margin: 10px 15px;
+    }
+    .card-header{
+        padding: 10px 0;
+    }
+    .card:hover .red-hover{
+        top: 160px ;
+        left: -25px; 
+    }
+    .card-2body{
+        padding: 15px 5px 15px 5px;
+    }
+    .main-icon {
+        width: 50%;
+        padding: 0;
+    }
+    .easy-fast h2{
+        font-size: 45px;
+    }
+    .main-card {
+        padding: 35px;
+    }
+    .hov-trip{
+        right: -50px;
+    }
+    .test{
+        width: 350px;
+    }
+    .test h1{
+        font-size: 45px;
+    }
+    .testi-slide{
+        width: 425px;
+        margin-right: 65px;
+    }
+    .logo-2 img{
+        padding: 60px;
+        width: 200px;
+    }
+    .text-2 h2{
+        font-size: 30px;
+    }
+    .text-2 input{
+        padding-left: 50px;
+    }
+    .high {
+        width: 26%;
+    }
+    .low {
+        width: 12%;
+        padding: 5px 16px 30px 16px;
+    }
+    .medium {
+        width: 24%;
+        padding: 10px 0 0 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        max-width: 720px;
+        margin: auto;
+    }
+    nav ul li a{
+        margin: 10px 10px;
+        padding-top: 35px
+    }
+    .text{
+        margin-top: 100px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text p{
+        font-size: 11px;
+    }
+    .text .find-more{
+        margin-right: 12px;
+    }
+    .image{
+        margin-top: 70px;
+    }
+    .card{
+        width: calc(50% - 60px);
+        margin: 20px 20px;
+    }
+    .card:hover .red-hover {
+        top: 180px;
+    }
+    .card-2 a span{
+        float: none;
+        margin-right: 10px;
+    }
+    .card-2body{
+        padding: 15px 10px 15px 5px;
+    }
+    .main-icon {
+        width: 100%;
+        padding: 0;
+    }
+    .easy-fast h2{
+        font-size: 40px;
+    }
+    .pg p{
+        width: 50%;
+    }
+    .main-card{
+        padding: 50px 150px 50px 150px;
+    }
+    .row-5{
+        margin-top: 0;
+        padding: 50px 0px 50px 0;
+    }
+    .test {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .test h1 {
+        font-size: 35px;
+    }
+    .testi-slide{
+        width: 530px;
+    }
+    .logo-2 img {
+        padding: 25px;
+        width: 70%;
+    }
+    .text-2 input{
+        padding-left: 40px;
+        height: 50px;
+        width: 230px;
+    }
+    .text-2 img{
+        right: 260px;
+        width: 18px;
+        height: 20px;
+    }
+    .text-2 h2{
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+    .high {
+        width: 100%;
+    }
+    .medium {
+        width: 32%;
+        padding: 50px 0 0 0;
+    }
+    .low {
+        width: 15%;
+        padding: 50px 30px 20px 20px;
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .container{
+        max-width: 520px;
+        margin: auto;
+    }
+    nav ul li a{
+        margin: 10px 2px;
+        font-size: 12px;
+        padding-top: 40px;
+    }
+    .image{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .text h4{
+        font-size: 20px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .title{
+        margin-top: 150px;
+    }
+    .title h2{
+        font-size: 45px;
+    }
+    .row-2 {
+        padding: 20px 0px;
+        margin-top: 0;
+    }
+    .card{
+        width: calc(100% - 75px);
+        margin: 30px 35px;
+    }
+    .red-hover{
+        height: 70px;
+        width: 60px;
+        border-radius: 25px 0px 10px 0px;
+    }
+    .card:hover .red-hover{
+        top: 190px;
+        left: -20px;
+    }
+    .heading{
+        margin-top: 100px;
+    }
+    .heading h3{
+        font-size: 40px;
+    }
+    .row-3{
+        margin-top: 50px;
+    }
+    .card-2{
+        width: calc(100% - 42px);
+        margin: 20px 20px;
+    }
+    .main-icon{
+        width: 100%;
+        padding: 0;
+    }
+    .easy-fast h2{
+        font-size: 38px;
+    }
+    .main-card{
+        padding: 70px;
+    }
+    .row-5{
+        margin-top: 0;
+    }
+    .test{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .test h1{
+        font-size: 40px;
+    }
+    .main-logo{
+        margin-top: 100px;
+    }
+    .testi-slide{
+        width: 410px;
+        margin-right: 50px;
+    }
+    .input{
+        padding: 20px;
+        margin-top: 0;
+    }
+    .text-2{
+        padding: 50px;
+    }
+    .text-2 h2{
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    .text-2 input{
+        margin-bottom: 30px;
+    }
+    .text-2 img {
+        width: 18px;
+        height: 20px;
+    }
+    .contain{
+        width: 100%;
+    }
+    .low{
+        padding: 10px 0 0 0;
+    }
+    .medium{
+        padding: 10px 5px 10px 5px;
+    }
+}
+@media (min-width: 375px) and (max-width: 576px){
+    .container{
+        max-width: 320px;
+        margin: auto;
+    }
+    .image{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .text h4{
+        font-size: 17px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text p{
+        font-size: 11px;
+    }
+    .text .find-more{
+        padding: 12px 12px;
+    }
+    .title{
+        margin-top: 150px;
+    }
+    .title h2{
+        font-size: 45px;
+    }
+    .row-2 {
+        padding: 20px 0px;
+        margin-top: 0;
+    }
+    .card{
+        width: calc(100% - 35px);
+        margin: 10px 20px;
+        padding: 20px 0 20px 0;
+    }
+    .red-hover{
+        height: 70px;
+        width: 60px;
+        border-radius: 25px 0px 10px 0px;
+    }
+    .card:hover .red-hover{
+        top: 225px;
+        left: -20px;
+    }
+    .heading{
+        margin-top: 100px;
+    }
+    .heading h3{
+        font-size: 40px;
+    }
+    .row-3{
+        margin-top: 50px;
+    }
+    .card-2{
+        width: calc(100% - 0px);
+        margin: 20px 0;
+    }
+    .row-4{
+        margin-top: 50px;
+    }
+    .main-icon{
+        width: 100%;
+        padding: 0;
+    }
+    .easy-fast h2{
+        font-size: 40px;
+    }
+    .main-card{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .main-trip img{
+        height: 140px;
+        width: 280px;
+    }
+    .bg img{
+        height: 15px;
+        width: 20px;
+    }
+    .hov-trip{
+        background-color: #FFFEFE;
+        right: 0;
+    }
+    .hov-trip img{
+        height: 45px;
+        width: 50px;
+    }
+    .row-5{
+        margin-top: 50px;
+    }
+    .test{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .test h1{
+        font-size: 40px;
+    }
+    .testi-slide{
+        width: 210px;
+        margin: 50px;
+        float: left;
+    }
+    .slide-part img{
+        width: 35%;
+        margin-left: -45px;
+        margin-top: -40px;
+    }
+    .main-logo{
+        margin-top: 50px;
+    }
+    .logo-2 img{
+        padding: 80px;
+    }
+    .input{
+        margin-top: 0;
+        padding: 15px;
+    }
+    .text-2{
+        padding: 50px;
+    }
+    .text-2 h2{
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+    .text-2 input{
+        height: 50px;
+        width: 160px;
+        margin-bottom: 30px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    .contain{
+        width: 100%;
+    }
+    .low{
+        padding: 10px 0 0 0;
+    }
+    .medium{
+        padding: 10px 5px 50px 5px;
+    }
+}
+
+
+   /*=========== W E B S I T E     E N D =============*/

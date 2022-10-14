@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
+	font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: rgb(4, 101, 139);
+	width: 50%;
+	border-radius: 50%;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	color: #eff3f7;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: black;
+	margin: 10px 40px;
+	padding-top: 35px;
+	font-weight: 500;
+	text-decoration: none;
+	display: block;
+}
+nav li a:hover{
+	text-decoration: none;
+	color: black;
+}
+ul li a::after{
+	content: '';
+	height: 2px;
+	width: 50%;
+	background-color: #F1A501;
+	transition: 0.5s ease;
+	margin: auto;
+}
+ul a:hover::after{
+	display: block;
+	transform: scaleX(2);
+}
+nav ul a.btn{
+	color: #000;
+	font-weight: 500;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: solid 1px black;
+	border-radius: 5px;  
+}
+nav ul a.btn:hover{
+	transition: 00.5s ease-in-out;
+	background-color: #000;
+	color: white;
+}
+    </style>
+</head>
+<body>
+	<nav class="row">
+        <div class="container header ">
+            <a href="travels.html"><img src="images/logo222.png" width="130px" ></a>
+            <ul>
+                <li><a href="travels.html">Services</a></li>
+                <li><a href="travels.html">Destinstion</a></li>
+                <li><a href="travels.html">Booking</a></li>
+                <li><a href="travels.html">Testimonials</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <div class="container">
+
+       <marquee behavior="active" direction="right"><h1 class="heading">Our Tour Events</h1></marquee> 
+    
+        <div class="gallery">
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/evnt1.jpg" alt="evnt1">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/evnt3.jpg" alt="evnt3">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/evnt8.jpg" alt="evnt8">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/evnt4.jpg" alt="evnt4">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/evnt5.jpg" alt="evnt5">
+            </div>
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="image/event10.jpg" alt="evnet10">
+            </div>
+    
+        </div>
+    
+    </div>
+</body>
+</html>
